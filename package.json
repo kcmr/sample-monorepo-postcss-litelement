@@ -1,0 +1,45 @@
+{
+  "name": "video-postcss-monorepo",
+  "version": "1.0.0",
+  "private": true,
+  "volta": {
+    "node": "14.15.3",
+    "yarn": "1.22.10"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "packages:lint": "lerna run lint --stream",
+    "packages:build": "lerna run build",
+    "packages:clean:dist": "lerna run clean --concurrency 4",
+    "prelerna:publish": "lerna run build",
+    "lerna:publish": "lerna publish --registry http://localhost:4873",
+    "lerna:clean": "lerna clean"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.12.10",
+    "@babel/core": "^7.12.10",
+    "@babel/plugin-proposal-class-properties": "^7.12.1",
+    "@babel/preset-env": "^7.12.11",
+    "@open-wc/eslint-config": "^4.1.0",
+    "autoprefixer": "^10.1.0",
+    "babel-eslint": "^10.1.0",
+    "babel-loader": "^8.2.2",
+    "babel-plugin-postcss": "^1.1.0",
+    "eslint": "^7.16.0",
+    "eslint-config-google": "^0.14.0",
+    "eslint-config-prettier": "^7.1.0",
+    "eslint-webpack-plugin": "^2.4.1",
+    "html-webpack-plugin": "^4.5.0",
+    "lerna": "^3.22.1",
+    "postcss": "^8.2.2",
+    "precss": "^4.0.0",
+    "rimraf": "^3.0.2",
+    "scripty": "^2.0.0",
+    "string-replace-loader": "^3.0.1",
+    "webpack": "^5.11.0",
+    "webpack-cli": "^4.3.0",
+    "webpack-dev-server": "^3.11.0"
+  }
+}

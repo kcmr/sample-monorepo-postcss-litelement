@@ -1,0 +1,16 @@
+$someVar: rgb(9, 107, 22);
+
+:host {
+  display: block;
+  font-family: sans-serif;
+  color: $someVar;
+  font-size: 20px;
+}
+
+.block {
+  color: $someVar;
+
+  &__element {
+    margin: 0;
+  }
+}

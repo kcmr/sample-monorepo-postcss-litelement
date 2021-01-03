@@ -1,0 +1,23 @@
+{
+  "name": "@kuscamara/first-component",
+  "version": "1.0.11",
+  "main": "index.js",
+  "files": [
+    "dist"
+  ],
+  "dependencies": {
+    "lit-element": "^2.0.0",
+    "lit-html": "^1.0.0"
+  },
+  "scripts": {
+    "start": "scripty",
+    "prebuild": "yarn clean",
+    "build": "scripty",
+    "clean": "rimraf dist",
+    "lint": "scripty",
+    "format": "scripty"
+  },
+  "scripty": {
+    "path": "../../scripts"
+  }
+}
