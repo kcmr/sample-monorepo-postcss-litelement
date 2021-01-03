@@ -5,7 +5,7 @@ Este repositorio es un ejemplo de proyecto de tipo monorepo en el que se utiliza
 ## Vídeos
 
 - [PostCSS con LitElement en monorepos (parte 1)](https://youtu.be/uamq7x4c-rI)
-- [PostCSS con LitElement en monorepos (parte 2)](https://youtu.be/fxlMSebJ6ow)
+- [PostCSS con LitElement en monorepos (parte 2)](https://youtu.be/ikZYlg_zYh0)
 
 ## Herramientas utilizadas
 
