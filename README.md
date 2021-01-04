@@ -1,4 +1,4 @@
-# Projecto de ejemplo usando PostCSS con LitElement en un monorepo
+# Proyecto de ejemplo usando PostCSS con LitElement en un monorepo
 
 Este repositorio es un ejemplo de proyecto de tipo monorepo en el que se utiliza PostCSS con LitElement.
 
