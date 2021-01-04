@@ -1,6 +1,6 @@
 import '@kuscamara/first-component';
 import { html, LitElement } from 'lit-element';
-import style from './styles.css';
+import style from './styles.scss';
 
 class Component extends LitElement {
   static styles = style;
